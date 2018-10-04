@@ -1,0 +1,2 @@
+Module-Name: com.dennis.core.model
+Spring-Parent: com.dennis.common.dal

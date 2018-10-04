@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <group name="basic">
+        <property name="app_name" defaultValue="hellogit" description="应用名"/>
+        <property name="app_root" defaultValue="/home/admin" description="开放式平台的根目录"/>
+        <property name="app_run" defaultValue="${app_root}/hellogit-run" description="开放式平台的运行目录"/>
+        <property name="log_root" defaultValue="${app_root}/logs" description="开放式平台的日志目录"/>
+        <property name="log_level" defaultValue="warn" description="应用的日志级别"/>
+    </group>
+        
+    <script>
+        <generate template="sofa-config.properties" destfile="../config/sofa-config.properties"
+                  charset="UTF-8"/>
+    </script>
+    </config>
